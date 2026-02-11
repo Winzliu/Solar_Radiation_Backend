@@ -9,7 +9,7 @@ on:
 env:
   REGISTRY: ghcr.io
   # Appending -api to distinguish from the web image if in the same repo
-  IMAGE_NAME: ${{ github.repository }}-api
+  IMAGE_NAME: ${{ github.repository }}
 
 jobs:
   build-and-push:
