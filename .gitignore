@@ -22,7 +22,7 @@ build/
 *.swo
 
 # Model files (large)
-*.keras
+# *.keras
 *.h5
 *.pb
 

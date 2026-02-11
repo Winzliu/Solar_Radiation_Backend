@@ -32,6 +32,12 @@ COPY data /app/data
 # Expose port 8000
 EXPOSE 8000
 
+# Set environment variables
+ENV ALLOWED_ORIGINS="http://localhost:3000,http://localhost:3001"
+
+# Change working directory to /app/app to ensure relative paths (e.g. ../model) work
+WORKDIR /app/app
+
 # Run the application
 # Using uvicorn directly to ensure it binds to 0.0.0.0
-CMD ["uvicorn", "app.app:app", "--host", "0.0.0.0", "--port", "8000"]
+CMD ["uvicorn", "app:app", "--host", "0.0.0.0", "--port", "8000"]
