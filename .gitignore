@@ -1,0 +1,38 @@
+# Virtual Environment
+venv/
+env/
+.venv/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# Distribution / packaging
+dist/
+build/
+*.egg-info/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Model files (large)
+*.keras
+*.h5
+*.pb
+
+# Data files (optional)
+*.csv
+!fix_test.csv
+
+# Logs
+*.log
+
+# OS
+.DS_Store
+Thumbs.db

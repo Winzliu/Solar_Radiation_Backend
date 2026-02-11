@@ -1,0 +1,48 @@
+[
+  {
+    "timestamp": "2026-01-29T23:58:19.635724",
+    "prediction_for": "2026-01-30 00:58:19",
+    "prediction": {
+      "solar_radiation_w_m2": 0.5749863386154175,
+      "confidence_intervals": {
+        "mae_lower": -24.825014114379883,
+        "mae_upper": 25.974985122680664,
+        "rmse_lower": -51.5250129699707,
+        "rmse_upper": 52.674983978271484
+      }
+    },
+    "input_data_summary": {
+      "hours_used": 24,
+      "time_range": {
+        "start": "2026-01-28T23:58:19",
+        "end": "2026-01-29T22:58:19"
+      },
+      "avg_temperature": 27.140904777076873,
+      "avg_humidity": 79.39515873030182,
+      "avg_solar_radiation": 232.23463983112754
+    }
+  },
+  {
+    "timestamp": "2026-01-30T00:03:11.605350",
+    "prediction_for": "2026-01-30 01:03:11",
+    "prediction": {
+      "solar_radiation_w_m2": 0.6287392377853394,
+      "confidence_intervals": {
+        "mae_lower": -24.77126121520996,
+        "mae_upper": 26.028738021850586,
+        "rmse_lower": -51.47126007080078,
+        "rmse_upper": 52.728736877441406
+      }
+    },
+    "input_data_summary": {
+      "hours_used": 24,
+      "time_range": {
+        "start": "2026-01-29T00:03:11",
+        "end": "2026-01-29T23:03:11"
+      },
+      "avg_temperature": 26.540539684641974,
+      "avg_humidity": 82.1646809382988,
+      "avg_solar_radiation": 252.8933959365827
+    }
+  }
+]
